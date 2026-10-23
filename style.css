@@ -1,0 +1,54 @@
+body {
+    background-color: #F8F5F7;
+}
+
+.page-header {
+    background-color:#604965;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+.job-title{
+    font-style: italic;
+}
+.links a {
+    color: white;
+    margin: 5px;
+}
+#about ,#skills ,#projects ,#contact {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #E5DCE5;
+}
+
+#projects h3{
+    color: #604965;
+}
+.page-footer {
+   background-color: #604965;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+.page-footer a{
+    color: white;
+}
+.about-content {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+}
+.about-content figure {
+   margin: 0;
+}
+#about img {
+   width: 180px;
+   height: 180px;
+   object-fit: cover;
+   border: none;
+   border-radius: 50%;
+}
+.about-text {
+   flex: 1;
+}
