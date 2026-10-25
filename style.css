@@ -1,5 +1,8 @@
 body {
     background-color: #F8F5F7;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .page-header {
@@ -14,6 +17,7 @@ body {
 .links a {
     color: white;
     margin: 5px;
+    font-weight: bold;
 }
 #about ,#skills ,#projects ,#contact {
     background-color: white;
@@ -46,9 +50,17 @@ body {
    width: 180px;
    height: 180px;
    object-fit: cover;
-   border: none;
+   border: 1px solid;
    border-radius: 50%;
 }
 .about-text {
    flex: 1;
+}
+h1 {
+    font-size: 32px;
+    color: white;
+}
+h2 {
+    font-size: 26px;
+    color: #604965;
 }
